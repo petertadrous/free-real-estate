@@ -1,0 +1,12 @@
+[project]
+name = "free-real-estate"
+version = "0.1.0"
+description = "Collection of useful scripts for real estate searches."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+]
