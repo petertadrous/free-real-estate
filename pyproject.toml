@@ -1,0 +1,26 @@
+[project]
+name = "free-real-estate"
+version = "0.1.0"
+description = "Collection of useful scripts for real estate searches."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dacite>=1.9.2",
+    "geopandas>=1.0.1",
+    "geopy>=2.4.1",
+    "ipyleaflet>=0.19.2",
+    "leafmap>=0.43.2",
+    "localtileserver>=0.10.6",
+    "netcdf4>=1.7.2",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "rioxarray>=0.18.2",
+    "streamlit>=1.44.1",
+    "xarray>=2025.3.1",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+    "pytest>=8.3.5",
+]
